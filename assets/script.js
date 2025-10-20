@@ -48,6 +48,8 @@ const container = document.getElementById('teamsContainer');
 //Import the row
 const rowEl = document.querySelector('#member .row');
 console.log(rowEl);
+//Add a new variable 
+let newCard = '';
 
 //Let's scroll the array
 for (let i = 0; i < teamMembers.length; i++) {
@@ -71,4 +73,6 @@ for (let i = 0; i < teamMembers.length; i++) {
     </div>
     </div>
   </div>`
+  console.log(info);
+  newCard += info;
 }
