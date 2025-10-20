@@ -53,7 +53,22 @@ console.log(rowEl);
 for (let i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i];
   console.log(member);
-  const {name, role, email, img} = member;
+  const { name, role, email, img } = member;
   console.log(name, role, email, img);
-  
+
+  const info = `
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./assets/img/male1.png" class="img-fluid rounded-start" alt="">
+    </div>
+    <div class="col-md-8">
+    <div class="card-body">
+      <h5 class="card-title">MARCO BIANCHI</h5>
+      <p class="card-text">Designer</p>
+      <p class="card-text">
+        <small class="text-body-secondary">marcobianchi@team.com</small>
+      </p>
+    </div>
+    </div>
+  </div>`
 }
