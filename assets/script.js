@@ -47,3 +47,9 @@ const container = document.getElementById('teamsContainer');
 
 //Import the row
 const rowEl = document.querySelector('#member .row');
+console.log(rowEl);
+
+//Let's scroll the array
+for (let i = 0; i < teamMembers.length; i++) {
+  const member = teamMembers[i];
+}
