@@ -54,11 +54,12 @@ let newCard = '';
 //Let's scroll the array
 for (let i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i];
-  console.log(member);
+  //console.log(member);
   const { name, role, email, img } = member;
-  console.log(name, role, email, img);
+  //console.log(name, role, email, img);
 
   const info = `
+  <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/${img}" class="img-fluid rounded-start" alt="">
@@ -72,11 +73,11 @@ for (let i = 0; i < teamMembers.length; i++) {
       </p>
     </div>
     </div>
+  </div>
   </div>`
-  console.log(info);
+  //console.log(info);
   newCard += info;
 }
 
-console.log(newCard);
+//console.log(newCard);
 
-rowEl.innerHTML = newCard;
