@@ -44,3 +44,6 @@ creare una pagina dedicata in cui mostrare una card per ciascun componente.
 
 //Pick the HTML id
 const container = document.getElementById('teamsContainer');
+
+//Import the row
+const rowEl = document.querySelector('#member .row');
