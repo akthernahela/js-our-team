@@ -53,4 +53,7 @@ console.log(rowEl);
 for (let i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i];
   console.log(member);
+  const {name, role, email, img} = member;
+  console.log(name, role, email, img);
+  
 }
