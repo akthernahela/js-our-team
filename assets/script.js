@@ -62,7 +62,7 @@ for (let i = 0; i < teamMembers.length; i++) {
   <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="./assets/img/${img}" class="img-fluid rounded-start" alt="">
+      <img src="./assets/${img}" class="img-fluid rounded-start" alt="">
     </div>
     <div class="col-md-8">
     <div class="card-body">
@@ -79,5 +79,7 @@ for (let i = 0; i < teamMembers.length; i++) {
   newCard += info;
 }
 
-//console.log(newCard);
+console.log(newCard);
+
+rowEl.innerHTML = newCard;
 
